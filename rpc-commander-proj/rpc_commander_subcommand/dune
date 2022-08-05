@@ -1,6 +1,0 @@
-(library
- (name rpc_commander_subcommand_lib)
- (libraries async core)
- (inline_tests)
- (preprocess
-  (pps ppx_jane)))
