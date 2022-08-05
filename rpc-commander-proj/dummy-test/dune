@@ -1,0 +1,5 @@
+(executables
+ (names rpc_client rpc_server)
+ (libraries async bin_prot core_unix.command_unix rpc_commander_lib)
+ (preprocess
+  (pps ppx_jane)))
