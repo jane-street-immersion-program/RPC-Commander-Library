@@ -7,7 +7,7 @@ module Query_input_option : sig
     | Use_generated of (Sexp.t -> 'a)
 
   val use_param : 'a Command.Param.t -> 'a t
-  val use_generated : (Sexplib0.Sexp.t -> 'a) -> 'a t
+  val use_generated : (Sexp.t -> 'a) -> 'a t
 end
 
 type 'a t =
